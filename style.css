@@ -2,15 +2,31 @@ body {
     margin:0;
     padding:0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: red;
+    color: #777777;
     background-image: url(./images/dust_scratches.png);
  }
 
- #header {
-     background-color: white;
+ .thumbnail {
+     width: 200px;
+     height: 200px;
  }
 
- h1 {
-    background-color: #4aaaa5;
-    margin: 0;
+
+ .container {
+     background-color: springgreen;
+     border-top-style: solid;
+     border-top-width: 1.5px;
+     border-color: #777777;
  }
+
+ .navbar-fixed-bottom {
+    text-align: center;
+    color: white;
+    height: 60px;
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 6px;
+    padding-top: 20px;
+
+}
