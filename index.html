@@ -9,8 +9,7 @@
 
 <body>
 
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default" id="header">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -18,26 +17,26 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                 <a class="navbar-brand" href="#">Adam Stephenson</a>
+                 <a class="navbar-brand" href="#" id="Adam" >Adam Stephenson</a>
             </div>
 
              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#" class="pagelinks">About</a></li>
+                <li><a href="portfolio.html" class="pagelinks">Portfolio</a></li>
+                <li><a href="contact.html" class="pagelinks">Contact</a></li>
             </ul>
     </nav>      
 
 <div class="container">
-    <div class="col-md-8">
+    <div class="col-md-8" id="contentarea">
         <div class="page-header">
             <h1>About Me</h1>
         </div>
         <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <img src="./images/Me.jpg" alt="Adam Stephenson" class="thumbnail">
                 </div>
-                <div class ="col-md-9">
+                <div class ="col-md-8">
                     <div class="caption">
                         <p>Hello, and thank you for visiting my portfolio. I decided to begin my coding journey in the fall of 2017 and have enjoyed every minute of it, minus a major frustration or two. My ultimate goal is to graduate from my boot camp program with the tools and knowledge to become a full-stack developer.</p>
 
@@ -46,17 +45,20 @@
         </div>
     </div>
 </div>
-    
-    <div class="col-md-4">
-        <div class="panel panel-default">
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+        <div class="panel panel-default" id="sidebar">
             <div class="panel-heading">
                 <h3 class="panel-title">Connect With Me</h3>
             </div>
         <div class="panel-body">
-            Panel content
+                <ul>
+                        <li><a href="https://github.com/minnesnowman"><img alt="GitHub" class="socialmedia" src="./images/github.png"></a></li>
+                        <li><a href="https://www.linkedin.com/in/adam-stephenson-ba0aa617/"><img alt="LinkedIn" class="socialmedia" src="./images/linkedin.png"></a></li>
+                        <li><a href="https://stackoverflow.com/users/9161682/adam-stephenson"><img alt="Stack Overflow" class="socialmedia" src="./images/stackoverflow.png"></a></li>
+                    </ul>
         </div>
     </div>
-        
     </div>
 
 

@@ -6,6 +6,29 @@ body {
     background-image: url(./images/dust_scratches.png);
  }
 
+ #header {
+     margin-bottom: 0;
+     height: 90px;
+     padding: 20px 10%;
+     border-bottom-style: solid;
+     border-bottom-color: #cccccc;
+     background-color: #ffffff;
+ }
+
+ #Adam {
+     background-color: #4aaaa5;
+     color: white;
+     text-align: center;
+     position: relative;
+     height: 90px;
+     bottom: 22px;
+     width: 330px;
+     padding-top: 35px;
+     font-size: xx-large;
+     font-weight: bold;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+ }
+
  .thumbnail {
      width: 200px;
      height: 200px;
@@ -13,15 +36,41 @@ body {
 
 
  .container {
-     background-color: springgreen;
-     border-top-style: solid;
-     border-top-width: 1.5px;
      border-color: #777777;
+     padding: 0;
+     margin-top: 40px;
  }
 
+#contentarea {
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: white;
+    width: 650px;
+    height: 600px;
+}
+
+
+ #sidebar {
+    text-align: center;
+    width: 270px;
+    height: 200px;
+    background-color: white;
+ }
+
+.socialmedia {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+ 
  .navbar-fixed-bottom {
     text-align: center;
-    color: white;
+    color: #ffffff;
     height: 60px;
     background-color: #666666;
     border-top-color: #4aaaa5;
@@ -29,4 +78,14 @@ body {
     border-top-width: 6px;
     padding-top: 20px;
 
+}
+
+p {
+    font-size: large;
+}
+
+.pagelinks {
+    font-size: large;
+    position: relative;
+    right: 160px; 
 }
