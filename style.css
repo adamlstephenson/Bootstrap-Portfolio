@@ -15,10 +15,11 @@ body {
      background-color: #ffffff;
  }
 
- h1, h3 {
+ h1, h3, h4, h5 {
      color: #4aaaa5;
      font-weight: bold;
      font-family: 'Georgia', Times, Times New Roman, serif;
+     font-size: 36px;
  }
 
  h3 {
@@ -32,6 +33,7 @@ body {
      position: relative;
      height: 90px;
      bottom: 22px;
+     right: 10px;
      width: 330px;
      padding-top: 35px;
      font-size: xx-large;
