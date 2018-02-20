@@ -15,6 +15,16 @@ body {
      background-color: #ffffff;
  }
 
+ h1, h3 {
+     color: #4aaaa5;
+     font-weight: bold;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+ }
+
+ h3 {
+     font-size: 20px;
+ }
+
  #Adam {
      background-color: #4aaaa5;
      color: white;
@@ -58,9 +68,11 @@ body {
  }
 
 .socialmedia {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 30%;
+    top: 10px;
 }
 
 li {
@@ -87,12 +99,16 @@ p {
 .pagelinks {
     font-size: large;
     position: relative;
-    right: 160px; 
+    right: 135px; 
 }
 
 .panel>.panel-heading {
     background-image: none;
     background-color: white;
     padding: 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: x-large;
 
 }
+
