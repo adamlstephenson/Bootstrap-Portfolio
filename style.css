@@ -89,3 +89,10 @@ p {
     position: relative;
     right: 160px; 
 }
+
+.panel>.panel-heading {
+    background-image: none;
+    background-color: white;
+    padding: 20px;
+
+}
