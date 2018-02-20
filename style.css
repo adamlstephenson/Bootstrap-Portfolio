@@ -51,6 +51,7 @@ body {
      border-color: #777777;
      padding: 0;
      margin-top: 40px;
+     margin-bottom: 40px;
  }
 
 #contentarea {
@@ -85,12 +86,13 @@ li {
  .navbar-fixed-bottom {
     text-align: center;
     color: #ffffff;
-    height: 60px;
+    height: 61px;
     background-color: #666666;
     border-top-color: #4aaaa5;
     border-top-style: solid;
     border-top-width: 6px;
     padding-top: 20px;
+    position: relative;
 
 }
 
