@@ -86,12 +86,12 @@ li {
  .navbar-fixed-bottom {
     text-align: center;
     color: #ffffff;
-    height: 61px;
+    height: 90px;
     background-color: #666666;
     border-top-color: #4aaaa5;
     border-top-style: solid;
     border-top-width: 6px;
-    padding-top: 20px;
+    padding-top: 30px;
     position: relative;
 
 }
