@@ -116,3 +116,10 @@ p {
 
 }
 
+#submit {
+    background-color: #4aaaa5;
+    border-style: none;
+    margin-left: 2.5%;
+    width: 120px;
+    height: 40px;
+}
