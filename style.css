@@ -100,8 +100,8 @@ li {
     border-top-style: solid;
     border-top-width: 6px;
     padding-top: 30px;
-    position: relative;
-
+    position: absolute;
+    bottom: -10%;
 }
 
 p {
@@ -175,10 +175,7 @@ p {
 
 }
 
-@media screen and (min-width: 768px) {
-    .navbar-fixed-bottom {
-        position: absolute;
-    }
+@media screen and (max-width: 1000px) {
 
     #sidebar {
     width: 100%;
@@ -191,6 +188,10 @@ p {
 
     #contentarea2 {
     width: 100%;
+    }
+    
+    .pagelinks {
+        right: 10%;
     }
 
 }
