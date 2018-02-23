@@ -174,3 +174,23 @@ p {
     text-align: center;
 
 }
+
+@media screen and (min-width: 768px) {
+    .navbar-fixed-bottom {
+        position: absolute;
+    }
+
+    #sidebar {
+    width: 100%;
+    margin-top: 20px;
+    }
+
+    #contentarea {
+    width: 100%;
+    }
+
+    #contentarea2 {
+    width: 100%;
+    }
+
+}
