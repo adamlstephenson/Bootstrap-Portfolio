@@ -75,19 +75,20 @@ body {
     top: 10px;
 }
 
-#hangman, #trivia, #rockpaperscissors, #rpggame, #rutgers {
+#hangman, #trivia, #rockpaperscissors, #rpggame, #rutgers, #crystalscollector {
     margin-top: 10px;
     height: 210px;
     width: 270px;
     float: left;
 }
 
-#trivia, #rockpaperscissors, #rpggame {
+#trivia, #rockpaperscissors, #rpggame, #crystalscollector {
     margin-top: 40px;
 }
 
 #hangman {
-    background-image: url(./images/hangman.jpg);
+    background-image: url(./images/lotr.png);
+    background-size: cover;
 }
 
 #trivia {
@@ -104,6 +105,11 @@ body {
 
 #rutgers {
     background-image: url(./images/rutgersinfowidget.jpg);
+}
+
+#crystalscollector {
+    background-image: url(./images/crystalscollector.png);
+    background-size: contain;
 }
 
 /* Containers */
