@@ -92,7 +92,8 @@ body {
 }
 
 #trivia {
-    background-image: url(./images/triviagame.jpg);
+    background-image: url(./images/trouttrivia.png);
+    background-size: cover;
 }
 
 #rockpaperscissors {
