@@ -75,14 +75,14 @@ body {
     top: 10px;
 }
 
-#hangman, #trivia, #rockpaperscissors, #rpggame, #rutgers, #crystalscollector {
+#hangman, #trivia, #GifTastic, #rpggame, #rutgers, #crystalscollector {
     margin-top: 10px;
     height: 210px;
     width: 270px;
     float: left;
 }
 
-#trivia, #rockpaperscissors, #rpggame, #crystalscollector {
+#trivia, #GifTastic, #rpggame, #crystalscollector {
     margin-top: 40px;
 }
 
@@ -96,8 +96,9 @@ body {
     background-size: cover;
 }
 
-#rockpaperscissors {
-    background-image: url(./images/rockpaperscissors.jpg);
+#GifTastic {
+    background-image: url(./images/nfl.png);
+    background-size: cover;
 }
 
 #rpggame {

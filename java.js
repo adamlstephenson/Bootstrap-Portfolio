@@ -10,3 +10,10 @@ document.getElementById("trivia").addEventListener('click', function() {
     location.href = "https://minnesnowman.github.io/TriviaGame/"
 }, false);
 
+document.getElementById("GifTastic").addEventListener('click', function() {
+    location.href = "https://minnesnowman.github.io/GifTastic/"
+}, false);
+
+
+
+
