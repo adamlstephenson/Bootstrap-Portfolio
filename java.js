@@ -14,6 +14,10 @@ document.getElementById("GifTastic").addEventListener('click', function() {
     location.href = "https://minnesnowman.github.io/GifTastic/"
 }, false);
 
+document.getElementById("FriendFinder").addEventListener('click', function() {
+    location.href = "https://adams-friend-finder.herokuapp.com/"
+}, false);
+
 
 
 
