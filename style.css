@@ -8,6 +8,10 @@ body {
     background-image: url(./images/dust_scratches.png);
  }
 
+ a {
+     text-decoration: none;
+ }
+
  /* Header Stuff */
 
  #header {
@@ -94,7 +98,7 @@ body {
     top: 10px;
 }
 
-#hangman, #trivia, #GifTastic, #rpggame, #rutgers, #crystalscollector {
+#clickygame, #trivia, #GifTastic, #rpggame, #rutgers, #crystalscollector {
     margin-top: 10px;
     height: 210px;
     width: 270px;
@@ -105,8 +109,8 @@ body {
     margin-top: 40px;
 }
 
-#hangman {
-    background-image: url(./images/lotr.png);
+#clickygame {
+    background-image: url(./images/clickygame.png);
     background-size: cover;
 }
 
@@ -124,8 +128,9 @@ body {
     background-image: url(./images/rpggame.jpg);
 }
 
-#rutgers {
-    background-image: url(./images/rutgersinfowidget.jpg);
+#FriendFinder {
+    background-image: url(./images/friendfinder.png);
+    background-size: cover;
 }
 
 #crystalscollector {
@@ -193,7 +198,6 @@ p {
 
 .portfoliotext {
     background-color: #55DBCB;
-    color: whitesmoke;
     margin-top: 52%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -203,6 +207,20 @@ p {
 
 }
 
+.port-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.port-link:hover {
+    text-decoration: none;
+    color: #F4D35E;
+    text-shadow: 
+    -.25px -.25px 0 #561F37,
+    .25px -.25px 0 #561F37,
+    -.25px .25px 0 #561F37,
+    .25px .25px 0 #561F37;
+}
 /* Footer */
  
  .navbar-fixed-bottom {
@@ -249,7 +267,7 @@ p {
         position: absolute;
     }
 
-    #trivia, #rutgers, #rpggame, #hangman, #rockpaperscissors {
+    #trivia, #rutgers, #rpggame, #clickygame, #rockpaperscissors {
         width: 300px;
     }
 
